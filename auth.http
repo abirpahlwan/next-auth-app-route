@@ -1,0 +1,4 @@
+### Auth Providers
+GET http://localhost:3000/api/auth/providers
+Accept: application/json
+
