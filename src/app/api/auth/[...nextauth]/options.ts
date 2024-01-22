@@ -23,7 +23,7 @@ export const options: NextAuthOptions = {
             },
             async authorize(credentials, req) {
                 // Get user from database
-                const user = {id: "42", username: "abir", password: "1234"};
+                const user = {id: "42", name:"Abir", username: "abir", password: "1234"};
                 // Authorization logic
                 if (credentials?.username === user.username && credentials?.password === user.password) {
                     return user;
